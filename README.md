@@ -5,7 +5,7 @@
 * 正则匹配修改链接得到原始分辨率地址
 
 ## 第三方库
-* Requsets    
+* requsets    
 * BeautifulSoup
 
 ## 使用
