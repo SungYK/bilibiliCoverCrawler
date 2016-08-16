@@ -5,9 +5,11 @@ import requests
 import re
 
 class Crawler(object):
-    searchURL = 'http://search.bilibili.com/all?keyword='
-    img = None
-    retImg = None
+
+    def __init__(self):
+        self.img = None
+        self.retImg = None
+        self.searchURL = 'http://search.bilibili.com/all?keyword='
 
     def start(self):
         self.inputAVnum()
